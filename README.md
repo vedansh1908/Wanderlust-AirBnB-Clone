@@ -128,8 +128,6 @@ Contributions are welcome! If you’d like to improve this project:
 
 ***
 
-## Author  
-
-Developed with passion by [Aditya](https://github.com/aditya-am-mishra).  
+ 
 
 ***
