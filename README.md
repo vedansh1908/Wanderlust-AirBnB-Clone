@@ -1,7 +1,6 @@
 
 # Wanderlust – Travel Listing & Review Platform  
-LIVE LINK: #
-[**Live Demo**](https://airbnb-clone-mern-stack-project-ihqk.onrender.com/listings)
+
 
 Wanderlust is a full-stack web application that lets users explore, create, and review travel destinations. Built using the MERN stack (MongoDB, Express.js, React, Node.js), it provides a seamless platform for travelers to share their experiences and discover new places.  
 
@@ -27,7 +26,7 @@ Wanderlust is a full-stack web application that lets users explore, create, and 
 
 | Category | Technologies Used |
 |-----------|-------------------|
-| Frontend | React.js, Bootstrap, CSS3, HTML5 |
+| Frontend | EJS, Bootstrap, CSS3, HTML5 |
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
 | Authentication | Passport.js, Express-Session |
@@ -39,19 +38,19 @@ Wanderlust is a full-stack web application that lets users explore, create, and 
 ## Folder Structure  
 
 ```
-Wanderlust/
+Wanderlust-AirBnB-Clone/
 │
 ├── models/           # Mongoose schemas
 ├── routes/           # Express route handlers
 ├── public/           # Static assets (CSS, JS, images)
-├── views/            # EJS templates (if SSR used)
+├── views/            # EJS templates 
 ├── utils/            # Middleware and helpers
 ├── app.js            # Main Express app
 ├── package.json
 └── README.md
 ```
 
-If you used React for the frontend instead of EJS, replace the `views/` part with your `client/` directory setup.
+
 
 ***
 
@@ -61,8 +60,8 @@ Follow these steps to run Wanderlust locally:
 
 1. **Clone the repository**  
    ```
-   git clone https://github.com/your-username/Wanderlust.git
-   cd Wanderlust
+   git clone https://github.com/vedansh1908/Wanderlust-AirBnB-Clone.git
+   cd Wanderlust-AirBnB-Clone
    ```
 
 2. **Install dependencies**  
@@ -108,22 +107,10 @@ For example:
 
 ***
 
-## Deployment  
-
-You can deploy this project using services like:  
-- **Frontend:** Netlify or Vercel  
-- **Backend:** Render, Railway, or Cyclic  
-- **Database:** MongoDB Atlas  
 
 ***
 
-## Contributing  
 
-Contributions are welcome! If you’d like to improve this project:  
-1. Fork the repository  
-2. Create a new branch (`feature/new-feature`)  
-3. Commit your changes and push  
-4. Submit a pull request  
 
 
 ***
